@@ -16,16 +16,9 @@
   float: left;
 }
 #main-navbar ul li  {
-   float: left;
-   postition: relative;   
-   right: 50%
-   display: block;
-}
-#main-navbar ul li a {
-	 display: block;
-	 padding: 10 px 20 px;
-	 color: #fff;
-	 text-decoration:none;
+  display: block;
+  color: #fff;
+  text-decoration: none;
 }
 #main-navbar ul li a:hover {
   background-color: #000;
@@ -39,18 +32,14 @@
   background-color: red;
   height: 100%;
   width: 20%;
-}
-#sidebar ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
 }
-#sidebar ul li a {
+#sidebar ul li  {
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
 }
-sidebar ul li a:hover {
-	background-color: #000;
-}
+
